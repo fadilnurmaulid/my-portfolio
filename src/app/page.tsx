@@ -177,9 +177,9 @@ export default function Home() {
       <section id="contact" className="py-16 md:py-20 text-center">
         <h2 className="text-3xl font-bold mb-4 border-l-4 border-purple-600 pl-3 inline-block">Contact</h2>
         <p className="text-gray-400 mb-3">Let's connect or collaborate.</p>
-        <p>Email: fadil@example.com</p>
-        <p>GitHub: github.com/yourusername</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p>Email: fadilnurmaulid01@gmail.com</p>
+        <p>GitHub: github.com/fadil-nurmaulid</p>
+        <p>LinkedIn: linkedin.com/in/fadil-nurmaulid</p>
       </section>
 
       <footer className="text-center text-neutral-400 text-sm mt-12 pb-10">
