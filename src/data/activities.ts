@@ -13,7 +13,7 @@ description:
 role: "Member",
 organization: "NovoClub",
 location: "Universitas Indonesia",
-date: "2025 – Present",
+date: "Mar 2026 – Present",
 description:
 "Participating in technology and innovation focused community activities."
 },

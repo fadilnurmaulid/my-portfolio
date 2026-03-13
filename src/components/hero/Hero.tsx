@@ -6,16 +6,16 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center">
 
       <Image
-        src="/banner.jpg"
+        src="/banner.png"
         alt="banner"
         fill
-        className="object-cover opacity-20"
+        className="object-cover opacity-100"
       />
 
       <div className="text-center z-10">
 
         <Image
-          src="/profile.jpg"
+          src="/profile1.png"
           alt="profile"
           width={160}
           height={160}

@@ -1,11 +1,13 @@
 export const skills = {
 
-programming: [
+// 0 will be replaced with & and _ with space
+
+programming_languages: [
 "Python",
 "C++"
 ],
 
-ai_data: [
+AI_0_data_science: [
 "Machine Learning",
 "Artificial Intelligence",
 "Data Analytics",
@@ -14,10 +16,11 @@ ai_data: [
 "Exploratory Data Analysis"
 ],
 
-robotics_engineering: [
+Electronics_0_Robotics: [
 "ROS2",
-"Kalman Filtering",
-"Electronics",
+"Arduino",
+"IoT",
+"Circuit Design",
 "Embedded Systems",
 "Robotics",
 "KiCAD",
@@ -26,6 +29,7 @@ robotics_engineering: [
 
 tools: [
 "Linux",
+"OSINT",
 "Git",
 "GitHub",
 "Matplotlib",
@@ -37,11 +41,13 @@ tools: [
 "Microsoft Excel"
 ],
 
-science: [
+science_0_research: [
 "Calculus",
 "Linear Algebra",
 "Physics",
-"Computational Science"
+"Computational Science",
+"Instrumentation",
+"Quantitative Modeling",
 ]
 
 }

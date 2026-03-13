@@ -3,91 +3,97 @@ export const certifications = [
 {
 title: "AI+ Foundation",
 organization: "AI CERTs",
-image: "/cert-placeholder.jpg"
+image: "/AIF_AICerts.png"
 },
 
 {
 title: "Code Generation and Optimization using IBM Granite",
 organization: "IBM",
-image: "/cert-placeholder.jpg"
+image: "/IBM_CodeGeneration.png"
 },
 
 {
 title: "Belajar Machine Learning untuk Pemula",
 organization: "Dicoding",
-image: "/cert-placeholder.jpg"
+image: "/BMLP_Dicoding.png"
 },
 
 {
 title: "Belajar Dasar AI",
 organization: "Dicoding",
-image: "/cert-placeholder.jpg"
+image: "/BDAI_Dicoding.png"
 },
 
 {
 title: "Memulai Pemrograman dengan Python",
 organization: "Dicoding",
-image: "/cert-placeholder.jpg"
+image: "/MPPy_Dicoding.png"
 },
 
 {
 title: "Intro to Data Analytics",
 organization: "RevoU",
-image: "/cert-placeholder.jpg"
+image: "/IDA_RevoU.png"
 },
 
 {
 title: "Intermediate Machine Learning",
 organization: "Kaggle",
-image: "/cert-placeholder.jpg"
+image: "/ImML_Kaggle.png"
 },
 
 {
 title: "Intro to Machine Learning",
 organization: "Kaggle",
-image: "/cert-placeholder.jpg"
+image: "/IML_Kaggle.png"
 },
 
 {
 title: "Python",
 organization: "Kaggle",
-image: "/cert-placeholder.jpg"
+image: "/Py_Kaggle.png"
 },
 
 {
 title: "Feature Engineering",
 organization: "Kaggle",
-image: "/cert-placeholder.jpg"
+image: "/FE_Kaggle.png"
 },
 
 {
 title: "AI Machine Learning Bootcamp (DSF 43)",
 organization: "Dibimbing",
-image: "/cert-placeholder.jpg"
+image: "/AIML_Dibimbing.png"
 },
 
 {
 title: "AI Talent Hub Program",
 organization: "Telkom Indonesia",
-image: "/cert-placeholder.jpg"
+image: "/AITH_Telkom.png"
 },
 
 {
 title: "CyberSecurity Program",
 organization: "Karier.mu",
-image: "/cert-placeholder.jpg"
+image: "/CSW_Kariermu.png"
 },
 
 {
-title: "Code Generation Certificate",
+title: "Certificate of Achievement: Code Generation and Optimization",
 organization: "Hacktiv8",
-image: "/cert-placeholder.jpg"
+image: "/CGO_Hacktiv8.png"
 },
 
 {
 title: "Pengenalan Dasar Penggunaan RStudio",
 organization: "Educativa ID",
-image: "/cert-placeholder.jpg"
+image: "/PDPRs_EducativaID.png"
+},
+
+{
+title: "Cybersecurity Career Starter Certification",
+organization: "Hack & Fix",
+image: "/CCSC_Hack&Fix.png"
 }
 
 ]

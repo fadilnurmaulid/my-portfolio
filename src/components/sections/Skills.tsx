@@ -19,7 +19,7 @@ subtitle="Technical expertise"
 <div key={category}>
 
 <h3 className="text-lg font-semibold mb-4 capitalize text-indigo-400">
-{category.replace("_"," ")}
+{category.replace(/_/g, " ").replace(/0/g, "&")}
 </h3>
 
 <div className="flex flex-wrap gap-4">
