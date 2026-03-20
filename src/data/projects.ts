@@ -27,7 +27,7 @@ github: "https://github.com/fadil-nurmaulid/robot_kf"
 },
 
 {
-title: "Electronics & Embedded Systems Projects",
+title: "Lorem Ipsum",
 description:
 "will be added in the future",
 tech: ["Arduino", "Electronics", "Embedded Systems"],
@@ -36,7 +36,7 @@ github: ""
 },
 
 {
-title: "Machine Learning Projects",
+title: "Lorem Ipsum",
 description:
 "will be added in the future",
 tech: ["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow"],
@@ -45,7 +45,7 @@ github: ""
 },
 
 {
-title: "Physics Simulations",
+title: "Lorem Ipsum",
 description:
 "will be added in the future",
 tech: ["C++", "OpenGL", "Physics Engines", "QtStudio"],
