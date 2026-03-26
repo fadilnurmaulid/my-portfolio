@@ -1,41 +1,44 @@
 import SectionTitle from "../ui/SectionTitle"
 import { profile } from "@/data/profile"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 
-export default function Contact(){
+export default function Contact() {
+  return (
+    <section className="py-24 container mx-auto px-6 text-center">
 
-return(
+      <SectionTitle
+        title="Contact"
+        subtitle="Open to collaboration, research opportunities, and innovative projects"
+      />
 
-<section className="py-24 container mx-auto px-6 text-center">
+      <p className="text-gray-300 mb-8">
+        {profile.email}
+      </p>
 
-<SectionTitle
-title="Contact"
-subtitle="Let's collaborate"
-/>
+      <div className="flex justify-center gap-6">
 
-<p className="text-gray-300 mb-6">
-{profile.email}
-</p>
+        <a
+          href={profile.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="glass px-6 py-3 rounded-lg hover:scale-105 transition flex items-center gap-2"
+        >
+          <FaGithub className="text-lg" />
+          GitHub
+        </a>
 
-<div className="flex justify-center gap-6">
+        <a
+          href={profile.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="glass px-6 py-3 rounded-lg hover:scale-105 transition flex items-center gap-2"
+        >
+          <FaLinkedin className="text-lg" />
+          LinkedIn
+        </a>
 
-<a
-href={profile.github}
-className="glass px-6 py-2 rounded-lg hover:scale-105 transition"
->
-GitHub
-</a>
+      </div>
 
-<a
-href={profile.linkedin}
-className="glass px-6 py-2 rounded-lg hover:scale-105 transition"
->
-LinkedIn
-</a>
-
-</div>
-
-</section>
-
-)
-
+    </section>
+  )
 }

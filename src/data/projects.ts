@@ -1,55 +1,36 @@
-export const projects = [
-{
-title: "Caesar Cipher GUI Encryption Tool",
-description:
-"Desktop encryption tool implementing Caesar Cipher with modular Python architecture and PyQt5 GUI.",
-tech: ["Python", "PyQt5", "OOP"],
-image: "/PROJECT_CCGUI.png",
-github: "https://github.com/fadil-nurmaulid/Caesar-Cipher-GUI"
-},
-
-{
-title: "Slot Machine Desktop Game",
-description:
-"Interactive desktop slot machine game with modular Python architecture, reel animations, persistent redeem codes, and non-blocking audio system.",
-tech: ["Python", "PyQt5", "JSON", "Game Logic", "Modular Programming"],
-image: "/PROJECT_SMGUI.png",
-github: "https://github.com/fadil-nurmaulid/Slot_Machine"
-},
-
-{
-title: "Kalman Filter State Estimation",
-description:
-"State estimation implementation using Kalman filtering techniques in robotics systems.",
-tech: ["C++", "ROS2", "Kalman Filtering", "Simulation"],
-image: "/PROJECT_KFSE.png",
-github: "https://github.com/fadil-nurmaulid/robot_kf"
-},
-
-{
-title: "Electronics & Embedded Systems Projects",
-description:
-"will be added in the future",
-tech: ["Arduino", "Electronics", "Embedded Systems"],
-image: "/project-placeholder.jpg",
-github: ""
-},
-
-{
-title: "Machine Learning Projects",
-description:
-"will be added in the future",
-tech: ["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow"],
-image: "/project-placeholder.jpg",
-github: ""
-},
-
-{
-title: "Physics Simulations",
-description:
-"will be added in the future",
-tech: ["C++", "OpenGL", "Physics Engines", "QtStudio"],
-image: "/project-placeholder.jpg",
-github: ""
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  tech: string[];
+  github?: string;
+  demo?: string;
 }
-]
+
+export const projects: Project[] = [
+  {
+    id: "ccgui",
+    title: "Carbon Capture GUI",
+    description: "A desktop application for monitoring and controlling carbon capture systems with real-time data visualization and ML-based predictions.",
+    image: "/PROJECT_CCGUI.png",
+    tech: ["Python", "PyQt5", "TensorFlow", "Matplotlib"],
+    github: "https://github.com/fadilnurmaulid/carbon-capture-gui",
+  },
+  {
+    id: "kfse",
+    title: "Knowledge-First Search Engine",
+    description: "An intelligent search engine leveraging NLP and knowledge graphs to deliver contextually relevant results beyond keyword matching.",
+    image: "/PROJECT_KFSE.png",
+    tech: ["Python", "FastAPI", "BERT", "Neo4j", "React"],
+    github: "https://github.com/fadilnurmaulid/kfse",
+  },
+  {
+    id: "smgui",
+    title: "Smart Monitoring GUI",
+    description: "IoT-integrated monitoring dashboard with anomaly detection, sensor fusion, and automated alert systems for industrial environments.",
+    image: "/PROJECT_SMGUI.png",
+    tech: ["React", "Node.js", "MQTT", "PyTorch", "InfluxDB"],
+    github: "https://github.com/fadilnurmaulid/smart-monitoring",
+  },
+];
