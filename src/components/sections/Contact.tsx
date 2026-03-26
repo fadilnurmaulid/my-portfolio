@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 export default function Contact() {
   return (
-    <section className="py-24 container mx-auto px-6 text-center">
+    <section className="py-24 container mx-auto px-6 text-center [&>div>p]:mx-auto [&>div>p]:text-center">
 
       <SectionTitle
         title="Contact"
