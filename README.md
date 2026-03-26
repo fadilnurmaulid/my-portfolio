@@ -1,18 +1,68 @@
-# Fadil Nurmaulid – Personal Portfolio
+# 🚀 Fadil Nurmaulid – Personal Portfolio
 
-Ini adalah website portfolio pribadi Fadil Nurmaulid, mahasiswa Fisika Universitas Indonesia, dengan minat pada **Artificial Intelligence, Computational Science, Robotics, dan Electronics**.
+> *"Exploring the frontier of Artificial Intelligence, Computational Science, and Embedded Systems."*
 
-Website ini berisi beberapa bagian utama:
+Hello! I’m **Fadil Nurmaulid**, a **Physics student at Universitas Indonesia**, focused on **AI, Data Science, and Embedded Systems**.
+This website serves as a **personal showcase of my projects, skills, and professional experience**.
 
-- **Hero** – Tampilan awal dengan banner dan foto profil.
-- **About** – Deskripsi singkat tentang diri dan fokus riset.
-- **Activities** – Pengalaman organisasi dan posisi profesional.
-- **Projects** – Kumpulan proyek personal dengan deskripsi, teknologi yang digunakan, dan link GitHub.
-- **Skills & Research Interests** – Kemampuan teknis dan fokus penelitian.
-- **Certifications** – Sertifikasi yang sudah didapat.
-- **Contact** – Informasi kontak dan link ke GitHub/LinkedIn.
-- **Footer** – Copyright.
+> ⚠️ *Website is currently under development – content and design may change.*
 
-Semua data personal terpusat sehingga mudah diperbarui, dan semua gambar berada di folder `/public` sebagai placeholder.
+---
 
-> Catatan: Website ini bersifat **pribadi** dan digunakan untuk dokumentasi serta showcase pengalaman dan proyek saya sendiri.
+## 🏷️ Overview
+
+| Section                   | Description                                                            |
+| ------------------------- | ---------------------------------------------------------------------- |
+| **🎯 Hero**               | Animated introduction with avatar, CV & project links                  |
+| **👤 About**              | Personal profile, research focus, quick stats                          |
+| **📈 Activities**         | Timeline of organizational & professional experience                   |
+| **💻 Projects**           | Interactive project cards with tech badges & GitHub links              |
+| **🛠️ Skills & Research** | Categorized badges: AI 🤖, ML 📊, Data Science 📈, Embedded Systems 💡 |
+| **🎖️ Certifications**    | Grid layout with hover overlay for earned certifications               |
+| **📬 Contact**            | GitHub, LinkedIn, and other contact channels                           |
+| **⚡ Footer**              | Copyright and additional notes                                         |
+
+---
+
+## 🌟 Features & Highlights
+
+* **✨ Glassmorphism UI** – Clean, modern, and futuristic look
+* **🎨 Animated Background & Hero** – Gradient blobs & interactive entrance
+* **📊 Interactive Timelines** – Color-coded badges for projects & activities
+* **🛠️ Skills Dashboard** – AI, ML, Data Science, Embedded Systems
+* **🏆 Certifications Showcase** – Hover overlay & zoom effects
+* **📌 Sticky Navbar** – Active section tracking with glass effect
+* **🎵 Music Player (Optional)** – Floating mute/unmute toggle for ambiance
+
+---
+
+## 🌈 Design Philosophy
+
+* **Fonts**: Syne (headings), DM Sans (body) – clean & technical
+* **Color Palette**: Deep navy (#050810) + indigo, purple, cyan accents
+* **Animations**: Lightweight CSS + IntersectionObserver, fully responsive
+* **Experience**: Minimalist, interactive, tech-forward UI tailored for AI/Embedded Systems portfolio
+
+---
+
+## ⚙️ Tech Stack
+
+* **Framework**: Next.js 13+ (App Router)
+* **Styling**: TailwindCSS + custom CSS variables
+* **Language**: TypeScript for type safety
+* **Deployment Ready**: Vercel compatible
+
+---
+
+## 💡 Skill Badges Example
+
+* **AI**: 🤖 `Machine Learning`, `Deep Learning`, `NLP`
+* **Data Science**: 📊 `Python`, `Pandas`, `NumPy`, `Data Visualization`
+* **ML / DL Tools**: 🧠 `PyTorch`, `TensorFlow`, `Scikit-Learn`
+* **Embedded Systems**: 💡 `Arduino`, `ESP32`, `Raspberry Pi`, `C/C++`
+
+> All badges are **interactive & color-coded** on the website for clear visual hierarchy.
+
+---
+
+> 🌟 *This portfolio is **personal** and represents my skills, projects, and research. Still a **work in progress** — expect updates and improvements!*
