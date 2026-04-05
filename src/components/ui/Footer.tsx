@@ -1,9 +1,18 @@
 export default function Footer() {
   return (
-    <footer className="mt-24 border-t border-white/10">
-      <div className="container mx-auto px-6 py-6 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Fadil Nurmaulid. All rights reserved.
-      </div>
+    <footer
+      style={{
+        borderTop: "1px solid rgba(255,255,255,0.06)",
+        padding: "32px 24px",
+        textAlign: "center",
+      }}
+    >
+      <p style={{ fontSize: 12, color: "#334155", letterSpacing: "0.08em" }}>
+        © 2026 Fadil Nurmaulid. All rights reserved.
+      </p>
+      <p style={{ fontSize: 11, color: "#1e293b", marginTop: 6, letterSpacing: "0.04em" }}>
+        Background music: &ldquo;I Could Be&rdquo; – Purpeel
+      </p>
     </footer>
-  )
+  );
 }
