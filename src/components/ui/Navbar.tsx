@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -125,43 +124,10 @@ export default function Navbar() {
                 <button
                   key={link.href}
                   onClick={() => handleNav(link.href)}
-                  style={{
-                    position: "relative",
-                    padding: "6px 14px",
-                    borderRadius: 6,
-                    fontSize: 13,
-                    fontWeight: isActive ? 600 : 400,
-                    fontFamily: "'DM Sans', sans-serif",
-                    color: isActive ? "#a5b4fc" : "#94a3b8",
-                    background: isActive ? "rgba(99,102,241,0.12)" : "transparent",
-                    border: "none",
-                    cursor: "pointer",
-                    transition: "all 0.2s ease",
-                    letterSpacing: "0.01em",
-                  }}
-                  onMouseEnter={(e) => {
-                    if (!isActive) (e.currentTarget as HTMLElement).style.color = "#e2e8f0";
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!isActive) (e.currentTarget as HTMLElement).style.color = "#94a3b8";
-                  }}
+                  className={isActive ? "nav-btn nav-btn--active" : "nav-btn"}
                 >
                   {link.label}
-                  {isActive && (
-                    <span
-                      style={{
-                        position: "absolute",
-                        bottom: 3,
-                        left: "50%",
-                        transform: "translateX(-50%)",
-                        width: 4,
-                        height: 4,
-                        borderRadius: "50%",
-                        background: "#6366f1",
-                        boxShadow: "0 0 8px rgba(99,102,241,0.9)",
-                      }}
-                    />
-                  )}
+                  {isActive && <span className="nav-btn__dot" />}
                 </button>
               );
             })}
@@ -244,11 +210,56 @@ export default function Navbar() {
         )}
       </nav>
 
-      {/* Tailwind md:flex helper — ensure it's available */}
       <style>{`
+        /* Responsive helpers */
         @media (min-width: 768px) {
           .hidden.md\\:flex { display: flex !important; }
           .md\\:hidden { display: none !important; }
+        }
+
+        /* Nav button base */
+        .nav-btn {
+          position: relative;
+          padding: 6px 14px;
+          border-radius: 6px;
+          font-size: 13px;
+          font-weight: 400;
+          font-family: 'DM Sans', sans-serif;
+          color: #94a3b8;
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          transition: color 0.2s ease, background 0.2s ease;
+          letter-spacing: 0.01em;
+          white-space: nowrap;
+        }
+        .nav-btn:hover {
+          color: #e2e8f0;
+          background: rgba(255,255,255,0.04);
+        }
+
+        /* Active state — overrides hover */
+        .nav-btn--active {
+          font-weight: 600;
+          color: #a5b4fc !important;
+          background: rgba(99,102,241,0.12) !important;
+        }
+        .nav-btn--active:hover {
+          color: #a5b4fc !important;
+          background: rgba(99,102,241,0.16) !important;
+        }
+
+        /* Active dot */
+        .nav-btn__dot {
+          position: absolute;
+          bottom: 3px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background: #6366f1;
+          box-shadow: 0 0 8px rgba(99,102,241,0.9);
         }
       `}</style>
     </>
