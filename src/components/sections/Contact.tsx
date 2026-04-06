@@ -8,7 +8,13 @@ export default function Contact() {
   const ref = useReveal();
 
   const email = profile.email;
-  const mailtoHref = "mailto:" + email;
+  
+  const subject = encodeURIComponent("Hello Fadil — Let's Connect");
+  const body = encodeURIComponent(
+    "Hi Fadil,\n\nI came across your portfolio and would love to connect.\n\n[Your message here]"
+  );
+  const mailtoHref = `mailto:${email}?subject=${subject}&body=${body}`;
+  const gmailHref = `https://mail.google.com/mail/?view=cm&to=${email}&subject=${subject}&body=${body}`;
 
   const contactItems = [
     {
@@ -72,10 +78,17 @@ export default function Contact() {
             {contactItems.map((item, i) => (
               <a
                 key={item.label}
-                href={item.href}
-                target={item.isEmail ? undefined : "_blank"}
-                rel="noopener noreferrer"
+                href={item.isEmail ? mailtoHref : item.href}
+                target={!item.isEmail ? "_blank" : undefined}
+                rel={!item.isEmail ? "noopener noreferrer" : undefined}
                 className={`reveal stagger-${i + 1}`}
+
+                onClick={(e) => {
+                  if (item.isEmail && !navigator.userAgent.includes("Mobile")) {
+                    e.preventDefault();
+                    window.open(gmailHref, "_blank");
+                  }
+                }}
 
                 style={{
                   display: "flex",
@@ -173,9 +186,14 @@ export default function Contact() {
 
             {/* Quick action buttons */}
             <div style={{ display: "flex", flexDirection: "column", gap: 10, position: "relative", zIndex: 1 }}>
-              <button
-                type="button"
-                onClick={() => { window.open("mailto:fadilnurmaulid01@gmail.com", "_self"); }}
+              <a
+                href={mailtoHref}
+                onClick={(e) => {
+                if (!navigator.userAgent.includes("Mobile")) {
+                    e.preventDefault();
+                    window.open(gmailHref, "_blank");
+                  }
+                }}
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -190,6 +208,7 @@ export default function Contact() {
                   color: "white",
                   background: "linear-gradient(135deg, #4f46e5, #7c3aed)",
                   border: "1px solid rgba(139,92,246,0.4)",
+                  textDecoration: "none",
                   transition: "all 0.3s ease",
                   boxSizing: "border-box",
                   cursor: "pointer",
@@ -213,7 +232,7 @@ export default function Contact() {
                   <polyline points="22,6 12,13 2,6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 Send Email
-              </button>
+              </a>
               <a
                 href={profile.linkedin}
                 target="_blank"
