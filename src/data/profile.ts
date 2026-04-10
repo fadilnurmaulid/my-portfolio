@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "https://linkedin.com/in/fadilnurmaulid",
   cvUrl: "/cv.pdf",
   avatar: "/Aether_Systems_Profile.png",
-  banner: "/banner.jpg",
+  banner: "/banner.png",
   about: 
     `Physics Instrumentation undergraduate at Universitas Indonesia with a strong interest in Artificial Intelligence, Computational Science, Intelligent Systems, and Cybersecurity. My work is centered on combining mathematics, physics, and programming to build structured computational solutions. I enjoy translating theoretical concepts into functional prototypes through simulation, system modeling, software development, and early-stage AI applications.
 

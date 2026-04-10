@@ -8,31 +8,36 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "Machine Learning & AI",
     icon: "🧠",
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV", "Hugging Face", "LangChain"],
+    skills: ["Machine Learning (Fundamentals)", "Model Evaluation", "Feature Engineering", "State Estimation", "Kalman Filtering"],
   },
   {
     category: "Programming Languages",
     icon: "⌨️",
-    skills: ["Python", "TypeScript", "JavaScript", "C++", "SQL", "R"],
+    skills: ["Python", "C++", "SQL", "R"],
   },
   {
     category: "Data & Analytics",
     icon: "📊",
-    skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Tableau", "Apache Spark"],
+    skills: ["Matplotlib", "Pandas", "Numpy", "Seaborn", "Microsoft Excel", "Data Analytics (Basic)", "Data Visualization"],
   },
   {
-    category: "Web & Backend",
-    icon: "🌐",
-    skills: ["React", "Next.js", "FastAPI", "Node.js", "PostgreSQL", "MongoDB"],
-  },
-  {
-    category: "DevOps & Cloud",
-    icon: "☁️",
-    skills: ["Docker", "Git", "Linux", "GCP", "AWS", "CI/CD"],
+    category: "Software & Tools",
+    icon: "🛠️",
+    skills: ["GitHub", "Linux", "LaTeX", "RStudio"],
   },
   {
     category: "Robotics & Embedded",
     icon: "🤖",
-    skills: ["ROS", "Arduino", "Raspberry Pi", "SLAM", "Computer Vision", "Sensor Fusion"],
+    skills: ["ROS", "Arduino", "Electronics", "KiCAD", "LTSpice", "TinkerCad", "Proteus"],
   },
+  {
+    category: "Programming & Development",
+    icon: "💻",
+    skills: ["Object-Oriented Programming (OOP)", "Modular Programming", "PyQt5", "Pygame"],
+  },
+  {
+    category: "Other Skills",
+    icon: "🧩",
+    skills: ["Problem Solving", "Critical Thinking", "Time Management", "OSINT"],
+  }
 ];

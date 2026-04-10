@@ -22,7 +22,8 @@ export default function Projects() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+            maxWidth: 1100,
             gap: 24,
           }}
         >
@@ -56,7 +57,8 @@ export default function Projects() {
               <div
                 style={{
                   position: "relative",
-                  height: 200,
+                  width: "100%",
+                  aspectRatio: "16 / 9",
                   overflow: "hidden",
                   background: "#0a0f1e",
                 }}
@@ -65,7 +67,7 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  style={{ objectFit: "cover", transition: "transform 0.5s ease" }}
+                  style={{ objectFit: "cover", objectPosition: "top", transition: "transform 0.5s ease" }}
                   onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.transform = "scale(1.05)"; }}
                   onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.transform = "scale(1)"; }}
                 />

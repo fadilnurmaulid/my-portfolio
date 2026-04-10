@@ -136,7 +136,7 @@ export default function About() {
                 fontSize: 28,
               }}
             >
-              🤖
+              ✦
             </div>
           </div>
         </div>
