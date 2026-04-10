@@ -172,7 +172,7 @@ export default function Certifications() {
           <SectionTitle
             label="Credentials"
             title="Certifications"
-            subtitle={`${certifications.length} verified credentials across AI, data science, and software engineering.`}
+            subtitle={`${certifications.length} Certifications across AI, data science, and software engineering.`}
           />
         </div>
 

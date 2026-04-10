@@ -37,7 +37,7 @@ export default function About() {
               {profile.about}
             </p>
             <p className="reveal stagger-2" style={{ fontSize: 16, color: "#64748b", lineHeight: 1.8, marginBottom: 40, fontWeight: 300 }}>
-              I thrive at the intersection of theoretical foundations and engineering pragmatism — transforming complex research into production-ready systems that solve real problems.
+              I focus on strengthening theoretical foundations while building practical computational systems — turning mathematical and technical concepts into functional solutions.
             </p>
 
             {/* Stats grid */}
@@ -115,7 +115,7 @@ export default function About() {
                 }}
               >
                 <div style={{ fontSize: 20, fontWeight: 800, color: "#f1f5f9", fontFamily: "'Syne',sans-serif" }}>{profile.name}</div>
-                <div style={{ fontSize: 13, color: "#818cf8", marginTop: 4 }}>AI Engineer & Researcher</div>
+                <div style={{ fontSize: 13, color: "#818cf8", marginTop: 4 }}>AI & Computational Science</div>
               </div>
             </div>
             {/* Decoration */}

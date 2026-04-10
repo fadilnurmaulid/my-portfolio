@@ -14,7 +14,7 @@ export default function Skills() {
           <SectionTitle
             label="Toolkit"
             title="Skills & Technologies"
-            subtitle="Technologies and tools I work with across AI, engineering, and product development."
+            subtitle="Technologies and tools I use across AI, computational science, and engineering."
           />
         </div>
 

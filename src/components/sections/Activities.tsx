@@ -18,7 +18,7 @@ export default function Activities() {
     <section id="activities" style={{ padding: "100px 24px", maxWidth: 1200, margin: "0 auto" }}>
       <div ref={ref}>
         <div className="reveal">
-          <SectionTitle label="Experience" title="Activities & Experience" subtitle="A timeline of my professional journey, competitions, and community contributions." />
+          <SectionTitle label="Experience" title="Activities & Experience" subtitle="A timeline of my academic journey, technical experiences, and community involvement." />
         </div>
 
         <div style={{ position: "relative", paddingLeft: 40 }}>

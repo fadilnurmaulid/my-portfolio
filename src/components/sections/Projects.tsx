@@ -15,7 +15,7 @@ export default function Projects() {
           <SectionTitle
             label="Portfolio"
             title="Featured Projects"
-            subtitle="Handpicked projects across AI, robotics, and full-stack engineering."
+            subtitle="Selected projects in computational systems, AI, and software development."
           />
         </div>
 

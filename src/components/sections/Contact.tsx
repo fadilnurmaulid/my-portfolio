@@ -60,7 +60,7 @@ export default function Contact() {
           <SectionTitle
             label="Get In Touch"
             title="Contact"
-            subtitle="Open to collaborations, research discussions, and new opportunities. Feel free to reach out."
+            subtitle="Open to collaborations, research discussions, and technical opportunities."
           />
         </div>
 
@@ -181,7 +181,7 @@ export default function Contact() {
                 fontWeight: 300,
               }}
             >
-              Whether you have a project in mind, a research collaboration, or just want to connect — my inbox is always open.
+              Whether you have a project idea, research interest, or collaboration opportunity — feel free to reach out.
             </p>
 
             {/* Quick action buttons */}
